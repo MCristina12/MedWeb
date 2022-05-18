@@ -1,0 +1,45 @@
+.logoH{
+
+  max-height: 70px;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url('./Recursos/bg.jpg');
+  background-size: cover;
+}
+
+.bg-registro{
+  background-image: url('./Recursos/registro.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.bg-bri{
+  background-color: rgba(255, 255, 255, 0.336);
+}
