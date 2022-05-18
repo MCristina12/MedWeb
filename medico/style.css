@@ -31,9 +31,14 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
     margin-top: 10px;
+    border-radius: 30px;
   }
 
 a{
     color: rgb(32, 32, 32);
     text-decoration: none;
+}
+
+.contCalendar{
+    border-radius: 30px;
 }
