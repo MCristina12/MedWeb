@@ -17,8 +17,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="./medico/Q&A.html" class="nav-item nav-link">Q&A</a>
+                    <a href="#" class="nav-item nav-link active">Inicio</a>
+                    <a href="#" class="nav-item nav-link">Q&A</a>
                     <a href="#" class="nav-item nav-link">Especialidades</a>
                 </div>
                 <div class="navbar-nav ms-auto">
@@ -92,10 +92,13 @@
             </div>
         </div>
     </main>
-    <form name="formulario" method="post" action="/send.php" class="form Login">
-      <h4 style="color: rgb(37, 37, 158);">Comenta tu experiencia con MediWeb!</h4>
-      <textarea cols="40" name="objeto3" spellcheck="true" class="w-50"></textarea>
-    </form>
+    <div class="container w-75">
+        <form name="formulario" method="post" action="/send.php" class="form Login">
+        <h4 style="color: rgb(37, 37, 158);">Pregunta a los especialistras:</h4>
+        <textarea cols="100" rows="5" name="objeto3" spellcheck="true" class="w-100"></textarea>
+        <button type="button" class="btn btn-primary mb-3 w-100">Enviar pregunta</button>
+        </form>
+    </div>
     
 </body>
 </html>
