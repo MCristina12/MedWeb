@@ -53,11 +53,13 @@ body {
 .medico{
     border-radius: 50%;
     height: 340px;
+    width: 340px;
 }
 
 .paciente{
     border-radius: 50%;
     height: 340px;
+    width: 340px;
 }
 
 .PerfilMedico{
