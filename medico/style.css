@@ -12,6 +12,14 @@ body {
 }
 
 .unaCita{
-    background-color: #e8f9fdb3;
-    border-color: #e8f9fdb3;
+    background-color: #ffffff81;
+    border-color: #fff;
+}
+
+.proxPac{
+    color: rgb(32, 32, 32);
+}
+
+.mb-0{
+    font-weight: bold;
 }
