@@ -66,6 +66,7 @@ a{
 .labNuevoHorario{
     background-color: #ffffff81;
     border-radius: 1em;
+    justify-content: center;
 }
 
 .datosPaciente{
@@ -73,3 +74,8 @@ a{
     border-radius: 1em;
 }
 
+.citaPasado{
+    background-color: #79DAE8;
+    border-radius: 0.8em ;
+    padding: 2px;
+}
