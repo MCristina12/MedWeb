@@ -9,23 +9,9 @@
 body {
     background-image: url('../Recursos/bg.jpg');
     background-size: cover;
-    padding-top: 80px;
-    
   }
-
-  .constResEsp{
-    background-color: rgba(255, 255, 255, 0.555);
-  }
-
-.contReservaPac{
-    background-color: rgba(255, 255, 255, 0.555);
-} 
-
-.contRec{
-    background-color: rgba(255, 255, 255, 0.555);
-}
-
-
+  
+  
 .rating {
     display: flex;
     flex-direction: row-reverse;
