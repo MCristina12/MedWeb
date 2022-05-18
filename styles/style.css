@@ -1,0 +1,41 @@
+body {
+    background-image: url('../Recursos/bg.jpg');
+    background-size: cover;
+  }
+
+.Desc{
+    background-color: #0aa1dd63;
+    color: white;
+    font-size: 30px;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.Galery{
+    background-color: #2155cd6e;
+}
+
+.logoH{
+
+    max-height: 70px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Login{
+    background-color: #ffffff81;
+    border-radius: 0.3em;
+    padding: 50px;
+    color: rgb(32, 32, 32);
+
+}
+
+
+.Registro{
+    background-color: #ffffff81;
+    border-radius: 0.3em;
+    padding: 10px;
+    color: rgb(32, 32, 32);
+    margin-top: 10px;
+}
+
