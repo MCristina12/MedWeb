@@ -42,3 +42,16 @@ a{
 .contCalendar{
     border-radius: 30px;
 }
+
+.carousel{
+    background-color: #ffffff81;
+}
+
+.diaSem:hover{
+    background-color: #79DAE8;
+}
+
+.btn{
+    background-color: #2155CD;
+    border-color: #2155CD;
+}
