@@ -6,23 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Citas por Mes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href='lib/main.css' rel='stylesheet' />
+    <script src='lib/main.js'></script>
+    <script src="script.js"></script>
+    
 </head>
 <body>
-    <div class='container d-flex justify-content-center mt-100'> <button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#exampleModal"> Open modal </button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content p-4" style="align-items: center;border-radius: 30px;"> <i class="img far fa-calendar fa-5x" style="color: white"></i>
-                    <div class="modal-header border-0 mb-2">
-                        <div class="modal-title" id="exampleModalLabel">Your RSVP was successfully submitted. Would you like to add this event to your calendar?</div>
-                    </div>
-                    <div class="modal-body"> <button type="button" class="btn add col-10 col-md-10 offset-md-1 offset-1" data-dismiss="modal">ADD TO CALENDAR</button> <button type="button" class="btn no col-12 col-md-12" data-dismiss="modal">NO, THANKS</button> </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 ">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img class="logoH" src="../Recursos/logoLargo.png" alt=""></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Inicio</a>
+                    <a href="#" class="nav-item nav-link">Q&A</a>
+                    <a href="#" class="nav-item nav-link">Especialidades</a>
                 </div>
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                    <a href="#" class="nav-item nav-link">Sign Up</a>
+                </div>
+
             </div>
         </div>
+    </nav>
+    
+    <div class="container contCalendar">
+        <div id='calendar'></div>
     </div>
+    
 </body>
 </html>
