@@ -11,6 +11,7 @@ body {
     background-size: cover;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 14px;
+    padding-top: 80px;
 }
 
 .unaCita{
@@ -72,6 +73,7 @@ a{
 .datosPaciente{
     background-color: #ffffff81;
     border-radius: 1em;
+    box-shadow: 3px 5px 5px 3px;
 }
 
 .citaPasado{
