@@ -1,0 +1,13 @@
+.logoH{
+
+    max-height: 70px;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background-image: url('../Recursos/bg.jpg');
+    background-size: cover;
+  }
+  
