@@ -42,7 +42,12 @@ body {
 
 .medico{
     border-radius: 50%;
-    height: 400px;
+    height: 340px;
+}
+
+.paciente{
+    border-radius: 50%;
+    height: 340px;
 }
 
 .PerfilMedico{
@@ -50,5 +55,19 @@ body {
     padding: 50px;
     color: rgb(32, 32, 32);
     border-radius: 0.3em;
+}
+.PerfilPaciente{
+    background-color: rgba(180, 219, 241, 0.61);
+    padding: 50px;
+    color: rgb(32, 32, 32);
+    border-radius: 0.3em;
+}
+
+.area{
+    height: 100%;
+}
+
+.MainContainer{
+
 }
 
