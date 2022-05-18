@@ -45,6 +45,8 @@ a{
 
 .carousel{
     background-color: #ffffff81;
+    box-shadow: 3px 5px 5px 3px;
+    border-radius: 1em;
 }
 
 .diaSem:hover{
@@ -55,3 +57,14 @@ a{
     background-color: #2155CD;
     border-color: #2155CD;
 }
+
+.precios{
+    background-color: #ffffff81;
+    border-radius: 1em;
+}
+
+.labNuevoHorario{
+    background-color: #ffffff81;
+    border-radius: 1em;
+}
+
