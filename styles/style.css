@@ -1,0 +1,36 @@
+body {
+    background-image: url('../Recursos/bg.jpg');
+    background-size: cover;
+  }
+
+.Desc{
+    background-color: #0aa1dd63;
+    color: white;
+    font-size: 30px;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.Galery{
+    background-color: #2155cd6e;
+}
+
+.logoH{
+
+    max-height: 70px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Login{
+    background-color: #0aa1dd63;
+    color: white;
+    border-radius: 0.3em;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.ContainerLogin{
+
+}
