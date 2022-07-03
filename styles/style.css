@@ -223,11 +223,32 @@ a{
     position: relative;
 }
 
+.color-primary-bg-btn{
+    background-color: #79DAE8;
+    color: white;
+}
 
+.btn-primary{
+    background-color: #79DAE8;
+    color: white;
+}
+.color-primary-btn{
+    background-color: #fff;
+    border: 1px solid #dadada
+}
 
+.color-primary-bg-btn{
+    background-color: #79DAE8;
+    color: white;
+    border-radius: 10%;
+    position: static;
+}
 
-
-
+.color-primary-btn:hover, .color-primary-bg:focus {
+    border: none;
+    color: white;
+    background-color: #119289;
+}
 
 
 .bg-registro{
@@ -264,4 +285,13 @@ img{
   background-color: rgba(255, 255, 255, 0.336);
 }
 
+.mispaci{
+    width: 100%;
+    max-height: 800px;
+    display: block;
+    border-style: solid;
+}
 
+img:hover{
+    transform: scale(0.9)
+}

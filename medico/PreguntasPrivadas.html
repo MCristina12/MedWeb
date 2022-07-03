@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>Preguntas Privadas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../styles/style.css">
+<script src=
+"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity=
+"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous">
+    </script>
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity=
+"sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous">
+    </script> 
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top">
@@ -25,137 +47,410 @@
                 <a href="../ambos/IniciarSesion.html" class="nav-item nav-link">Iniciar sesión</a>
                 <a href="../ambos/TipoUsuario.html" class="nav-item nav-link">Regístrate</a>
             </div>
-
         </div>
     </div>
   </nav>
 
+  <div class="d-flex .area" id="wrapper">
+    <!-- Sidebar-->
+    <div class="border-end bg-white"  style="height: max-content;" id="sidebar-wrapper">
+        
+        <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./PerfilMedico.html">Mi perfil</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./proxcitas.html">Próximas citas</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./soloCalendar.html">Calendario de citas</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Historial de citas</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./PreguntasPrivadas.html">Preguntas privadas</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./HistoriaClinica.html">Mis pacientes</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./Comentarios.html">Comentarios</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./calendario.html">Ajustes</a>
+        </div>
+    </div>
       <div class="container m-3 ">
           <div class="row">
-            <div class="col-1"></div>
-              <div class="col-3">
-                <div class="row">
-                    <button type="button" class="btn btn-outline-secondary mb-2">Mi Perfil</button>
-                    <button type="button" class="btn btn-outline-secondary mb-2">Próximas citas</button>
-                    <button type="button" class="btn btn-outline-secondary mb-2">Calendario de citas</button>
-                    <button type="button" class="btn btn-outline-secondary mb-2">Historial de citas</button>
-                    <button type="button" class="btn btn-secondary mb-2" >Preguntas privadas</button>
-                    <button type="button" class="btn btn-outline-secondary mb-2">Mis Pacientes</button>
-                    <button type="button" class="btn btn-outline-secondary mb-2">Comentarios</button>
-                </div>
-              </div>
-              <div class="col-2"></div>
-              <div class="col container ">
+            <div class="fondp-1"></div>
+              <div class="container ">
                   <h2>Preguntas Privadas</h2>
                   <div class="row">
-                      <div class="col-6">
+                      
                         <div class="container border border-dark mt-3" >
                             <div>
-                              ¿Cuánta experiencia tiene tratando a niños que tienen las necesidades específicas de mi hijo?
+                              <div class="row"><h4>Jorge Ramirez</h4></div>
+                              <div class="row"><p>¿Cuánta experiencia tiene tratando a niños que tienen las necesidades específicas de mi hijo?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample1"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample1"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample1"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
+                            
+                        </div>
+                      
+                  </div>
+                  <div class="row">
+                      
+                        <div class="container border border-dark mt-3" >
+                            <div>
+                              <div class="row"><h4>Juan Baca</h4></div>
+                              <div class="row"><p>¿Tiene experiencia y capacitación en el uso de este tipo de tratamiento en otros niños?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample2"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample2"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample2"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                         </div>
                       </div>
-                      <div class="col-6">
-                        <div class="container border border-dark mt-3" >
-                            <div>
-                              ¿Tiene experiencia y capacitación en el uso de este tipo de tratamiento en otros niños?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
-                            </div>
-                        </div>
-                      </div>
+                      
                   </div>
                   <div class="row">
-                    <div class="col-6">
+                    
                         <div class="container border border-dark mt-3">
                             <div>
-                              ¿Cuáles son los objetivos de este tratamiento con mi hijo?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
+                              <div class="row"><h4>Javier Quito</h4></div>
+                              <div class="row"><p>¿Cuáles son los objetivos de este tratamiento con mi hijo?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample3"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample3"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample3"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="container border border-dark mt-3">
-                            <div>
-                              ¿Este tratamiento mejorará, reemplazará o tal vez pueda entrar en conflicto con el plan de tratamiento general de mi hijo?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
-                            </div>
-                        </div>
-                    </div>
+                    
                   </div>
                   <div class="row">
-                    <div class="col-6">
+                    
                         <div class="container border border-dark mt-3">
                             <div>
-                              ¿Qué evidencia existe acerca de la efectividad de este tratamiento?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
+                              <div class="row"><h4>Sergio Tuesta</h4></div>
+                              <div class="row"><p>¿Este tratamiento mejorará, reemplazará o tal vez pueda entrar en conflicto con el plan de tratamiento general de mi hijo?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample4"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample4"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample4"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="container border border-dark mt-3">
-                            <div>
-                              ¿Cómo supervisará y medirá la efectividad del tratamiento en mi hijo?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
-                            </div>
-                        </div>
-                    </div>
+                    
                   </div>
                   <div class="row">
-                    <div class="col-6">
+                    
                         <div class="container border border-dark mt-3">
                             <div>
-                              ¿Cuánto se espera que dure el tratamiento?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
+                              <div class="row"><h4>Manuel Pellegrini</h4></div>
+                              <div class="row"><p>¿Qué evidencia existe acerca de la efectividad de este tratamiento?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample5"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample5"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample5"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="container border border-dark mt-3">
-                            <div>
-                              ¿Existen posibles efectos secundarios u otros problemas? Si es así, ¿cuándo podrían aparecer?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
-                            </div>
-                        </div>
-                    </div>
+                    
                   </div>
                   <div class="row">
-                    <div class="col-6">
+                    
                         <div class="container border border-dark mt-3">
                             <div>
-                              ¿Cómo coordinará el tratamiento con los otros médicos, terapeutas y especialistas que trabajan con mi hijo?
+                              <div class="row"><h4>Ronald Araujo</h4></div>
+                              <div class="row"><p>¿Cómo supervisará y medirá la efectividad del tratamiento en mi hijo?</p></div>
+                              <div class="row"><div class="col">
+                                <p>
+                                  <button
+                                    class="btn btn-primary"
+                                    data-bs-toggle="collapse"
+                                    href="#multiCollapseExample6"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="multiCollapseExample6"
+                                    >Responder</button  
+                                  >
+                                  
+                                </p>
+                                <div
+                                  class="collapse multi-collapse"
+                                  id="multiCollapseExample6"
+                                >
+                                  <div class="input-group">
+                                    <textarea
+                                      class="form-control"
+                                      aria-label="With textarea"
+                                    ></textarea>
+                                    <button href="" class="btn btn-primary">Enviar</button>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
-                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-6">
+                    
+                  </div>
+                  <div class="row">
+                    
                         <div class="container border border-dark mt-3">
                             <div>
-                              ¿Cuál es mi papel durante el tratamiento?
-                            </div>
-                            <div class="btn-lg d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-secondary mb-2">Responder</button>
+                              <div class="row"><h4>Eduardo Algendones</h4></div>
+                              <div class="row"><p>¿Cuánto se espera que dure el tratamiento?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample7"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample7"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample7"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                         </div>
-                    </div>
+                    
+                  </div>
+                  <div class="row">
+                    
+                        <div class="container border border-dark mt-3">
+                            <div>
+                              <div class="row"><h4>Cesar Cruz</h4></div>
+                              <div class="row"><p>¿Existen posibles efectos secundarios u otros problemas? Si es así, ¿cuándo podrían aparecer?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample8"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample8"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample8"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    
+                  </div>
+                  <div class="row">
+                    
+                        <div class="container border border-dark mt-3">
+                            <div>
+                              <div class="row"><h4>Andy Massei</h4></div>
+                              <div class="row"><p>¿Cómo coordinará el tratamiento con los otros médicos, terapeutas y especialistas que trabajan con mi hijo?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample9"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample9"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample9"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    
+                  </div>
+                  <div class="row">
+                    
+                        <div class="container border border-dark mt-3">
+                            <div>
+                              <div class="row"><h4>Edgar Muñoz</h4></div>
+                              <div class="row"><p>¿Cuál es mi papel durante el tratamiento?</p></div>
+                              <div class="row">
+                                <div class="col">
+                                  <p>
+                                    <button
+                                      class="btn btn-primary"
+                                      data-bs-toggle="collapse"
+                                      href="#multiCollapseExample10"
+                                      role="button"
+                                      aria-expanded="false"
+                                      aria-controls="multiCollapseExample10"
+                                      >Responder</button  
+                                    >
+                                    
+                                  </p>
+                                  <div
+                                    class="collapse multi-collapse"
+                                    id="multiCollapseExample10"
+                                  >
+                                    <div class="input-group">
+                                      <textarea
+                                        class="form-control"
+                                        aria-label="With textarea"
+                                      ></textarea>
+                                      <button href="" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    
                   </div>
                 </div>
             </div>
