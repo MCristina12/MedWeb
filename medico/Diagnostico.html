@@ -48,55 +48,77 @@
         </div>
     </div>
   </nav>
+  <div class="d-flex .area" id="wrapper">
+    <div class="border-end bg-white" style="height: max-content;" id="sidebar-wrapper">
   
-      <div class="container-fluid">
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./PerfilMedico.html">Mi
+          perfil</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./proxcitas.html">Próximas
+          citas</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./soloCalendar.html">Calendario
+          de citas</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Historial de citas</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="./PreguntasPrivadas.html">Preguntas privadas</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./HistoriaClinica.html">Mis
+          pacientes</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="./Comentarios.html">Comentarios</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./calendario.html">Ajustes</a>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8 mt-2 mb-3">
+          <h2>Diagnostico de Paciente `${Paciente}`</h2>
+        </div>
+  
+      </div>
+      <div class="row mt-3">
+  
+        <div class="col">
           <div class="row">
-            <div class="col-8 mt-2 mb-3">
-              <h2>Diagnostico de Paciente `${Paciente}`</h2>
+            <h4>Síntomas</h4>
+            <div class="col-8">
+              <div class="container border border-dark">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac lectus varius, sollicitudin orci non,
+                tempor dolor.
+                Praesent a odio sollicitudin, vestibulum lectus in, tempus odio. Donec hendrerit imperdiet ullamcorper.
+                Sed luctus sem eu tellus tincidunt interdum.
+              </div>
             </div>
-            
+            <div class="col">
+              <div class="form-floating mb-3">
+                <input type="date" class="form-control" id="floatingInput">
+                <label for="floatingInput">Fecha</label>
+              </div>
+            </div>
           </div>
           <div class="row mt-3">
-              
-              <div class="col">
-                <div class="row">
-                    <h4>Síntomas</h4>
-                    <div class="col-8">
-                        <div class="container border border-dark">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac lectus varius, sollicitudin orci non, tempor dolor. 
-                          Praesent a odio sollicitudin, vestibulum lectus in, tempus odio. Donec hendrerit imperdiet ullamcorper. 
-                          Sed luctus sem eu tellus tincidunt interdum.
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="form-floating mb-3">
-                            <input type="date" class="form-control" id="floatingInput" >
-                            <label for="floatingInput">Fecha</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <h4>Prescripción</h4>
-                    <div class="col-8 mt-3">
-                        <div class="container border border-dark">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac lectus varius, sollicitudin orci non, tempor dolor. 
-                          Praesent a odio sollicitudin, vestibulum lectus in, tempus odio. Donec hendrerit imperdiet ullamcorper. 
-                          Sed luctus sem eu tellus tincidunt interdum.
-                        </div>
-                    </div>
-                    <div class="col mt-3">
-                        <h5>Firma del especialista: </h5>
-                        <img src="../recursos/firma.png" width="100" height="100">
-                    </div>
-                </div>
+            <h4>Prescripción</h4>
+            <div class="col-8 mt-3">
+              <div class="container border border-dark">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac lectus varius, sollicitudin orci non,
+                tempor dolor.
+                Praesent a odio sollicitudin, vestibulum lectus in, tempus odio. Donec hendrerit imperdiet ullamcorper.
+                Sed luctus sem eu tellus tincidunt interdum.
               </div>
+            </div>
+            <div class="col mt-3">
+              <h5>Firma del especialista: </h5>
+              <img src="../recursos/firma.png" width="100" height="100">
+            </div>
           </div>
-          <div class="col">
-            <a type="button" class="btn btn-primary" href="./datoshistorial.html">Volver</a>
-          </div>
-          
         </div>
       </div>
+      <div class="col">
+        <a type="button" class="btn btn-primary" href="./datoshistorial.html">Volver</a>
+      </div>
+  
+    </div>
+  </div>
+  </div>
       <!--<footer class="card mt-4 mb-2 bg-info bg-opacity-25">
         <div class="card-body"></div>
       </footer>-->
